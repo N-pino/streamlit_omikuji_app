@@ -14,7 +14,7 @@ def omikuji_model():
     if omikuji_num == 1:
         omikuji["kekka"] = "大吉"
     elif omikuji_num <= 4:
-        omikuji["kekka"] = "大"
+        omikuji["kekka"] = "中吉"
     elif omikuji_num <= 8:
         omikuji["kekka"] = "小吉"
     else:
